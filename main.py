@@ -1,0 +1,112 @@
+
+##################################################################################################
+# Ethanol increase in gasoline toward sustainable liquid fuels worldwide:                         
+# impacts in manufacturing and supply chains (Journal of Cleaner Production, Please Refer to It)  
+# Ahmednooh and Menezes (2024)                                                                    
+##################################################################################################
+
+print('##################################################################')
+print('### PPRG = 16 Scenarios (Main) in Figure 3 (combinatorial tree) ##')
+print('##################################################################')
+print('')
+print('')
+# Fig5: PPRG Main (Yield plot): 16 main scenarios (Yields detailed per unit)
+print('Fig5: PPRG Main (Yield plot): 16 main scenarios (Yields detailed per unit)')
+exec(compile(open(r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig5_PPRG_Main_MM_16.py','rb').read(), r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig5_PPRG_Main_MM_16.py','exec'))
+print('')
+print('')
+# Fig6: PPRG Main (Yield and RON plots): 16 main scenarios (Yield and RON plots)
+print('Fig6: PPRG Main (Yield and RON plots): 16 main scenarios (Yield and RON plots)')
+exec(compile(open(r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig6_PPRG_Main_MM_16_YIE_RON.py','rb').read(), r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig6_PPRG_Main_MM_16_YIE_RON.py','exec'))
+print('')
+print('')
+# Fig7: PPRG Main and Secondary (Yield and RON plots): 16 + (ISO, POLY and Both): 16 (Main) + 16 (Main+ISO) + 16 (Main+POLY) + 16 (Main+Both) = 64
+print('Fig7: PPRG Main and Secondary (Yield and RON plots): 16 + (ISO, POLY and Both): 16 (Main) + 16 (Main+ISO) + 16 (Main+POLY) + 16 (Main+Both) = 64')
+exec(compile(open(r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig7_PPRG_Main16+POLY+ISO+BOTH_48_YIE_RON.py','rb').read(), r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig7_PPRG_Main16+POLY+ISO+BOTH_48_YIE_RON.py','exec'))
+print('')
+print('')
+print('########################################################################################################################################')
+print('### PPRG-Full = 16 Scenarios (Main + ISO + POLY) = maximum yield and RON of gasoline (inside the refinery walls: endogenous variables)##') 
+print('### to each SC-IVs (MTBE,ETH,REF2): exogenous variables (outside the refinery walls)                                                  ##')
+print('########################################################################################################################################')
+print('')
+print('')
+## Fig8: PPRG-Full + MTBE 5%, 10% and 15%
+print('Fig8: PPRG-Full + MTBE 5%, 10% and 15%')
+exec(compile(open(r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig8_PPRG_Full+MTBE_YIE_RON.py','rb').read(), r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig8_PPRG_Full+MTBE_YIE_RON.py','exec'))
+print('')
+print('')
+### Fig9: PPRG-Full + ETH 10%
+print('Fig9: PPRG-Full + ETH 10%')
+exec(compile(open(r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig9_PPRG_Full+ETH_YIE_RON.py','rb').read(), r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig9_PPRG_Full+ETH_YIE_RON.py','exec'))
+print('')
+print('')
+## Fig10: PPRG-Full + REF2 15% (when hits ARO at 25%)
+print('Fig10: PPRG-Full + REF2 15% (when hits ARO at 25%)')
+exec(compile(open(r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig10_PPRG_Full+REF2_YIE_RON.py','rb').read(), r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig10_PPRG_Full+REF2_YIE_RON.py','exec'))
+print('')
+print('')
+######################################################################################################################################## 
+### PPRG-Full = 16 Scenarios (Main + ISO + POLY) = maximum yield and RON of gasoline (inside the refinery walls: endogenous variables)##   
+### to multiple SC-IVs (MTBE,ETH,REF2): exogenous variables (outside the refinery walls)                                              ## 
+######################################################################################################################################## 
+print('')
+print('')
+## Fig11: PPRG-Full + MTBE 5% + ETH 10%
+print('Fig11: PPRG-Full + MTBE 5% + ETH 10%')
+exec(compile(open(r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig11_PPRG_Full+MTBE+ETH_YIE_RON.py','rb').read(), r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig11_PPRG_Full+MTBE+ETH_YIE_RON.py','exec'))
+print('')
+print('')
+# Fig12: PPRG-Full + ETH 10% + REF2(22%) (when hits ARO at 25%)
+print('Fig12: PPRG-Full + ETH 10% + REF2(22%) (when hits ARO at 25%)')
+exec(compile(open(r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig12_PPRG_Full+ETH+REF2_YIE_RON.py','rb').read(), r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig12_PPRG_Full+ETH+REF2_YIE_RON.py','exec'))
+print('')
+print('')
+## Fig14: PPRG-Full + MTBE 5% + ETH 10% + REF2(25%) (when hits ARO at 25%)
+print('Fig14: PPRG-Full + MTBE 5% + ETH 10% + REF2(25%) (when hits ARO at 25%)')
+exec(compile(open(r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig14_PPRG_Full+MTBE+ETH+REF2_YIE_RON.py','rb').read(), r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig14_PPRG_Full+MTBE+ETH+REF2_YIE_RON.py','exec'))
+print('')
+print('')
+######################################################################################################################################
+# PPRG-Full = 16 Scenarios (Main + ISO + POLY) = maximum yield and RON of gasoline (inside the refinery walls: endogenous variables)##  
+# stocking the remaining LN, banning MTBE and adding Ethanol up to 25% (maximum allowed without demaging the engines)               ##
+######################################################################################################################################
+print('')
+print('')
+# Fig15: PPRG-Full + stock_RLN (60%) (when hits ARO at 25%) : stock remaing LN (considering 30% divert to ISO)
+print('Fig15: PPRG-Full + stock_RLN (60%) (when hits ARO at 25%) : stock remaing LN (considering 30% divert to ISO)')
+Stock_LN_Run = 0.60 # LN to be stocked instead of gasoline pool (save it to produce higher grades of gasoline)
+exec(compile(open(r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig15_PPRG_Full+stockRLN_YIE_RON.py','rb').read(), r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig15_PPRG_Full+stockLN_YIE_RON.py','exec'))
+print('')
+print('')
+### Fig15: PPRG-Full + stock_RLN (90%) + ETH 10% (when hits ARO at 25%) : stock remaing LN (considering 30% divert to ISO)
+print('Fig15: PPRG-Full + stock_RLN (90%) + ETH 10% (when hits ARO at 25%) : stock remaing LN (considering 30% divert to ISO)')
+Stock_LN_Run = 0.90 # LN to be stocked instead of gasoline pool (save it to produce higher grades of gasoline)
+exec(compile(open(r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig16_PPRG_Full+ETH+stockRLN_YIE_RON.py','rb').read(), r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig16_PPRG_Full+ETH+stockLN_YIE_RON.py','exec'))
+print('')
+print('')
+### Fig17: PPRG-Full + stock_RLN (20%) + ETH 10% + REF2 25% (when hits ARO at 25%) : stock remaing LN (considering 30% divert to ISO)
+print('Fig17: PPRG-Full + stock_RLN (20%) + ETH 10% + REF2 25% (when hits ARO at 25%) : stock remaing LN (considering 30% divert to ISO)')
+Stock_LN_Run = 0.20 # LN to be stocked instead of gasoline pool (save it to produce higher grades of gasoline)
+exec(compile(open(r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig17_PPRG_Full+ETH+REF2+stockRLN_YIE_RON.py','rb').read(), r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig17_PPRG_Full+ETH+REF2+stockLN_YIE_RON.py','exec'))
+print('')
+print('')
+### Fig18: PPRG-Full + stock_RLN (20%) + ETH 5% + ETH 10% + REF2 25% (when hits ARO at 25%) : stock remaing LN (considering 30% divert to ISO)
+print('Fig18: PPRG-Full + stock_RLN (20%) + ETH 5% + ETH 10% + REF2 25% (when hits ARO at 25%) : stock remaing LN (considering 30% divert to ISO)')
+Stock_LN_Run = 0.20 # LN to be stocked instead of gasoline pool (save it to produce higher grades of gasoline)
+exec(compile(open(r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig18_PPRG_Full+MTBE+ETH+REF2+stockRLN_YIE_RON.py','rb').read(), r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig18_PPRG_Full+MTBE+ETH+REF2+stockLN_YIE_RON.py','exec'))
+print('')
+print('')
+# LN to be stocked instead of gasoline pool (save it to produce higher grades of gasoline)
+print('Fig19: PPRG-Full + stock_RLN (when hits ARO at 25%) + ETH 5% to 25%: stock remaing LN (considering 30% divert to ISO)')
+## Fig19: PPRG-Full + stock_RLN (when hits ARO at 25%) + ETH 5% to 25%: stock remaing LN (considering 30% divert to ISO)
+exec(compile(open(r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig19_PPRG_Full+ETH5to25+StockRLN_YIE_RON.py','rb').read(), r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig19_PPRG_Full+ETH5to25+stockLN_YIE_RON.py','exec'))
+print('')
+print('')
+### Fig20: CO2 reduction by PPRG-Full + stock_RLN (when hits ARO at 25%) + ETH 5% to 25%: stock remaing LN (considering 30% divert to ISO)
+print('Fig20: CO2 reduction by PPRG-Full + stock_RLN (when hits ARO at 25%) + ETH 5% to 25%: stock remaing LN (considering 30% divert to ISO)')
+exec(compile(open(r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig20_PPRG_Full+CO2+ETH5to25+StockRLN_YIE_RON.py','rb').read(), r'D:/Cloud/OneDrive/HBKU/HBKU/students/Mahmoud/Ethanol/Plot_Ethanol/Plot_Ethanol/Fig20_PPRG_Full+CO2+ETH5to25+StockRLN_YIE_RON.py','exec'))
+#
+#
+#
+
